@@ -1,13 +1,10 @@
 import React from "react";
 import cvFile from "../assets/images/cv.pdf";
 import {
-  FaCalendarAlt,
-  FaDribbble,
   FaEnvelopeOpenText,
   FaGithub,
   FaLinkedinIn,
   FaMapMarkerAlt,
-  FaMobileAlt,
   FaTwitter,
 } from "react-icons/fa";
 import img from "../assets/images/about/avatar.jpg";
