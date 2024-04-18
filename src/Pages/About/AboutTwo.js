@@ -2,7 +2,7 @@ import React from "react";
 import UseData from "../../Hooks/UseData";
 import Footer from "../../Share/Footer";
 import "../../Share/Style.css";
-import SliderCommon from "../../Share/SliderCommon";
+// import SliderCommon from "../../Share/SliderCommon";
 import AboutCard from "./AboutCard";
 import HomeCard from "../../Share/HomeCard";
 import PageTitle from "../../Share/PageTitle";
@@ -74,7 +74,7 @@ const AboutTwo = () => {
 
           <div className="px-2 sm:px-5 md:px-10 lg:px-14 ">
             {/* Slick Slider call here  */}
-            <SliderCommon />
+            {/* <SliderCommon /> */}
           </div>
 
           {/* Common Footer call here */}
