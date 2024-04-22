@@ -1,4 +1,5 @@
-# Hosted on [![Netlify](https://img.shields.io/badge/Netlify-Deployed-blue?style=for-the-badge&logo=netlify)](https://moonchopper.netlify.app/)
+# Hosted on 
+[![Netlify](https://img.shields.io/badge/Netlify-Deployed-blue?style=for-the-badge&logo=netlify)](https://moonchopper.netlify.app/)
 
 
 
