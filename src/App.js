@@ -5,8 +5,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import ContextProvider from "./Context/ContextProvider";
 import AboutTwo from "./Pages/About/AboutTwo";
-import BlogTwo from "./Pages/Blog/BlogTwo";
-import ContactTwo from "./Pages/Contact/ContactTwo";
 import HomeTwo from "./Pages/Home/HomeTwo";
 import PortfiloTwo from "./Pages/Portfilo/PortfiloTwo";
 import ResumeTwo from "./Pages/Resume/ResumeTwo";
@@ -26,8 +24,6 @@ function App() {
               <Route index element={<AboutTwo />} />
               <Route path="about" element={<AboutTwo />} />
               <Route path="resume" element={<ResumeTwo />} />
-              <Route path="contact" element={<ContactTwo />} />
-              <Route path="blogs" element={<BlogTwo />} />
               <Route path="works" element={<PortfiloTwo />} />
             </Route>
             <Route path="*" element={<NotFound />} />

@@ -27,7 +27,7 @@ const CommonPortfilo = ({ condition, items }) => {
   };
   useEffect(() => {
     setTest("All");
-    handleData("All");
+    // handleData("All");
   }, [handleData]);
   const handleModle = (id) => {
     handleModelData(id);
@@ -71,36 +71,21 @@ const CommonPortfilo = ({ condition, items }) => {
                 </li>
                 <li
                   className={`${
-                    test === "Video" ? "text-[#FA5252]" : "fillter-btn"
+                    test === "Full Stack" ? "text-[#FA5252]" : "fillter-btn"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Video")}
+                  onClick={() => handleSearch("Full Stack")}
                 >
-                  Video
+                  Full Stack
                 </li>
                 <li
                   className={`${
-                    test === "Web Design" ? "text-[#FA5252]" : "fillter-btn"
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Web Design")}
-                >
-                  Web Design
-                </li>
-                <li
-                  className={`${
-                    test === "Logo" ? "text-[#FA5252]" : "fillter-btn ml-0"
+                    test === "Games" ? "text-[#FA5252]" : "fillter-btn ml-0"
                   } mr-4 md:mx-4`}
                   onClick={() => handleSearch("Logo")}
                 >
-                  Logo
+                  Games
                 </li>
-                <li
-                  className={`${
-                    test === "UI/UX" ? "text-[#FA5252]" : "fillter-btn"
-                  }  `}
-                  onClick={() => handleSearch("UI/UX")}
-                >
-                  Graphic Design
-                </li>
+
               </ul>
 
               {/* Portfilo fillter tab start */}
@@ -167,12 +152,12 @@ const CommonPortfilo = ({ condition, items }) => {
                     <div className="space-y-2">
                       <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
                         <FiFilePlus className="sm:text-lg hidden sm:block mr-2  md:text-xl" />
-                        Project :&nbsp;{" "}
+                        Project:&nbsp;{" "}
                         <span className="font-medium "> Website</span>
                       </p>
                       <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
                         <FiCode className="text-lg mr-2 hidden sm:block " />
-                        Langages :&nbsp;
+                        Tech:&nbsp;
                         <span className="font-medium ">
                           {singleData?.langages}
                         </span>
@@ -181,15 +166,21 @@ const CommonPortfilo = ({ condition, items }) => {
                     <div className="space-y-2">
                       <p className="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px]  sm:text-lg ">
                         <FiUser className="text-lg mr-2 hidden sm:block" />
-                        Client :&nbsp;
-                        <span className="font-medium ">
-                          {singleData?.client}
+                        Github:&nbsp;
+                        <span className="font-medium transition-all duration-300 ease-in-out hover:text-[#e54044] ">
+                        <a
+                            href={singleData?.github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {singleData?.ghLinkText}
+                        </a>
                         </span>
                       </p>
                       <p className="dark:text-white flex items-center text-[15px] sm:text-lg ">
                         <FiExternalLink className="text-lg mr-2 hidden sm:block" />
-                        Preview :&nbsp;
-                        <span className="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060] ">
+                        Preview:&nbsp;
+                        <span className="font-medium transition-all duration-300 ease-in-out hover:text-[#e54044] ">
                           <a
                             href={singleData?.link}
                             target="_blank"

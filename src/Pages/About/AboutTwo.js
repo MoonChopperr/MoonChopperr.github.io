@@ -30,16 +30,17 @@ const AboutTwo = () => {
                 <div className="col-span-12 space-y-2.5">
                   <div className="lg:mr-16">
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
-                      I'm Creative Director and UI/UX Designer from Sydney,
-                      Australia, working in web development and print media. I
-                      enjoy turning complex problems into simple, beautiful and
-                      intuitive designs.
+                    Hey there, I'm a software engineer from Atlanta, Georgia. I originally grew up in Vienna, Virginia but due to unfortunate cicumstances I decided to move back to Japan where I went to study at an international school.
+
                     </p>
                     <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                      My aim is to bring across your message and identity in the
-                      most creative way. I created web design for many famous
-                      brand companies.
+                    I come from 6+ years of experience in esports ranging from being an aspiring professional player whilst working part time to finally being able to compete full time and achieve my dream growing up.
+                  I eventually stumbled into coaching which is where I achieved 6 consecutive wins with a team cementing a legacy and achieving something that has never been done before.
                     </p>
+
+                    <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
+                  I now look to software engineering to further grow myself and my skills and hope to make a mark in the industry.
+                </p>
                   </div>
                 </div>
               </div>
@@ -48,10 +49,15 @@ const AboutTwo = () => {
               <div className="col-span-12 space-y-2.5">
                 <div className="lg:mr-16">
                   <p className="text-gray-lite  dark:text-color-910 leading-7">
-                    First Generation Japanese born in America, I pursued a career in esports after graduating from an international school in Japan. I was quite successful and have accrued numerous accolades, such as coaching a team that achieved six consecutive first-place wins within North America. Now, I am pursuing a career in software engineering where, instead of exploiting bugs (jokes), I create them and promptly fix them.</p>
+                    Hey there, I'm a software engineer from Atlanta, Georgia. I originally grew up in Vienna, Virginia but due to unfortunate cicumstances I decided to move back to Japan where I went to study at an international school.
+                    </p>
                   <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                    My goal as a software engineer is to continue growing in this sphere to the point of "If I think it, I want to be able to create it with my own hands".
+                  I come from 6+ years of experience in esports ranging from being an aspiring professional player whilst working part time to finally being able to compete full time and achieve my dream growing up.
+                  I eventually stumbled into coaching which is where I achieved 6 consecutive wins with a team cementing a legacy and achieving something that has never been done before.
                   </p>
+                <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
+                  I now look to software engineering to further grow myself and my skills and hope to make a mark in the industry.
+                </p>
                 </div>
               </div>
             </div>

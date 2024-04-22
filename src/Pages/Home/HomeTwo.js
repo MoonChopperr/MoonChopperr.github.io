@@ -37,14 +37,14 @@ const HomeTwo = () => {
               {!check ? (
                 <span
                   onClick={() => handle("dark")}
-                  className="bg-white w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center hover:bg-[#ef4060] text-black hover:text-white transition-all duration-300 ease-in-out cursor-pointer  "
+                  className="bg-white w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center hover:bg-[#e54044] text-black hover:text-white transition-all duration-300 ease-in-out cursor-pointer  "
                 >
                   <FiMoon className=" text-3xl " />
                 </span>
               ) : (
                 <span
                   onClick={() => handle("light")}
-                  className="bg-[#4D4D4D] w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer  "
+                  className="bg-[#4D4D4D] w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center hover:bg-[#e54044] transition-all duration-300 ease-in-out cursor-pointer  "
                 >
                   <FiSun className="text-white text-3xl" />
                 </span>
@@ -55,14 +55,14 @@ const HomeTwo = () => {
               {!menuOpen ? (
                 <span
                   onClick={() => setMenuOpen(!menuOpen)}
-                  className="lg:hidden   bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center items-center text-white dark:text-white text-3xl ml-3 "
+                  className="lg:hidden   bg-[#e54044] w-[40px] h-[40px] rounded-full flex justify-center items-center text-white dark:text-white text-3xl ml-3 "
                 >
                   <AiOutlineMenu />
                 </span>
               ) : (
                 <span
                   onClick={() => setMenuOpen(!menuOpen)}
-                  className="lg:opacity-0 lg:invisible visible opacity-100  bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center items-center text-white text-3xl ml-3 "
+                  className="lg:opacity-0 lg:invisible visible opacity-100  bg-[#e54044] w-[40px] h-[40px] rounded-full flex justify-center items-center text-white text-3xl ml-3 "
                 >
                   <AiOutlineClose />
                 </span>
@@ -105,14 +105,14 @@ const HomeTwo = () => {
             {!check ? (
               <span
                 onClick={() => handle("dark")}
-                className="bg-white text-black hover:text-white w-[40px] hidden  h-[40px] rounded-full lg:flex justify-center items-center  hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer "
+                className="bg-white text-black hover:text-white w-[40px] hidden  h-[40px] rounded-full lg:flex justify-center items-center  hover:bg-[#e54044] transition-all duration-300 ease-in-out cursor-pointer "
               >
                 <FiMoon className=" text-3xl " />
               </span>
             ) : (
               <span
                 onClick={() => handle("light")}
-                className="bg-black w-[40px] h-[40px] hidden  rounded-full lg:flex justify-center items-center   hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer "
+                className="bg-black w-[40px] h-[40px] hidden  rounded-full lg:flex justify-center items-center   hover:bg-[#e54044] transition-all duration-300 ease-in-out cursor-pointer "
               >
                 <FiSun className="text-white text-3xl" />
               </span>
