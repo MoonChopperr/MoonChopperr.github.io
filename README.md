@@ -1,3 +1,7 @@
+Hosted on: [![Netlify](https://img.shields.io/badge/Netlify-Deployed-blue?style=for-the-badge&logo=netlify)](https://moonchopper.netlify.app/)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
