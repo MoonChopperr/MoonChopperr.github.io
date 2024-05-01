@@ -30,7 +30,7 @@ const AboutTwo = () => {
                 <div className="col-span-12 space-y-2.5">
                   <div className="lg:mr-16">
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
-                    Hey there, I'm a software engineer from Atlanta, Georgia. I originally grew up in Vienna, Virginia but due to unfortunate cicumstances I decided to move back to Japan where I went to study at an international school.
+                    Hey there, I'm a software engineer from Atlanta, Georgia. I originally grew up in Vienna, Virginia but due to unfortunate circumstances I decided to move back to Japan where I went to study at an international school.
 
                     </p>
                     <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
