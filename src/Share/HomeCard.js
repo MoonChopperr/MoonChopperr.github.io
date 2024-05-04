@@ -11,6 +11,10 @@ import img from "../assets/images/about/avatar.jpg";
 import downloadIcon from "../assets/images/download.png";
 
 const HomeCard = () => {
+    const openResumeInNewTab = (e) => {
+    e.preventDefault();
+    window.open(cvFile, '_blank');
+  }
   return (
     <div>
       <div className="w-full mb-6 lg:mb-0  mx-auto   relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0 ">
@@ -140,14 +144,13 @@ const HomeCard = () => {
             </div> */}
           </div>
 
-          <a
-            href={cvFile}
-            download
-            className="inline-flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
+          <button
+            onClick={openResumeInNewTab}
+            className="flex items-center bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6 mx-auto"
           >
             <img src={downloadIcon} alt="icon" className="mr-2" />
-            Download CV
-          </a>
+            Open CV
+          </button>
         </div>
       </div>
     </div>

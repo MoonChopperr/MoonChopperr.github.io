@@ -30,17 +30,16 @@ const AboutTwo = () => {
                 <div className="col-span-12 space-y-2.5">
                   <div className="lg:mr-16">
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
-                    Hey there, I'm a software engineer from Atlanta, Georgia. I originally grew up in Vienna, Virginia but due to unfortunate circumstances I decided to move back to Japan where I went to study at an international school.
+                      Hey there, I'm a software engineer from Atlanta, Georgia. I originally grew up in Vienna, Virginia but due to unfortunate circumstances I decided to move back to Japan where I went to study at an international school.
 
                     </p>
                     <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                    I come from 6+ years of experience in esports ranging from being an aspiring professional player whilst working part time to finally being able to compete full time and achieve my dream growing up.
-                  I eventually stumbled into coaching which is where I achieved 6 consecutive wins with a team cementing a legacy and achieving something that has never been done before.
+                      I come from 6+ years of experience in esports ranging from being an aspiring professional player whilst working part time to finally being able to compete full time and achieve my dream growing up.
+                      I eventually stumbled into coaching which is where I achieved 6 consecutive wins with a team cementing a legacy and achieving something that has never been done before.
                     </p>
 
                     <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                  I now look to software engineering to further grow myself and my skills and hope to make a mark in the industry.
-                </p>
+                      Now, I've set my sights on software engineering as the next chapter of my journey. Eager to continue my growth and development, I'm excited to leverage my diverse background and experiences to make a meaningful impact in the tech industry. As a software engineer, I'm driven by a passion for problem-solving and innovation, and I'm committed to pushing the boundaries of what's possible in this dynamic field.                      </p>
                   </div>
                 </div>
               </div>
@@ -50,14 +49,13 @@ const AboutTwo = () => {
                 <div className="lg:mr-16">
                   <p className="text-gray-lite  dark:text-color-910 leading-7">
                     Hey there, I'm a software engineer from Atlanta, Georgia. I originally grew up in Vienna, Virginia but due to unfortunate circumstances I decided to move back to Japan where I went to study at an international school.
-                    </p>
-                  <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                  I come from 6+ years of experience in esports ranging from being an aspiring professional player whilst working part time to finally being able to compete full time and achieve my dream growing up.
-                  I eventually stumbled into coaching which is where I achieved 6 consecutive wins with a team cementing a legacy and achieving something that has never been done before.
                   </p>
-                <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                  I now look to software engineering to further grow myself and my skills and hope to make a mark in the industry.
-                </p>
+                  <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
+                    I come from 6+ years of experience in esports ranging from being an aspiring professional player whilst working part time to finally being able to compete full time and achieve my dream growing up.
+                    I eventually stumbled into coaching which is where I achieved 6 consecutive wins with a team cementing a legacy and achieving something that has never been done before.
+                  </p>
+                  <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
+                    Now, I've set my sights on software engineering as the next chapter of my journey. Eager to continue my growth and development, I'm excited to leverage my diverse background and experiences to make a meaningful impact in the tech industry. As a software engineer, I'm driven by a passion for problem-solving and innovation, and I'm committed to pushing the boundaries of what's possible in this dynamic field.                  </p>
                 </div>
               </div>
             </div>

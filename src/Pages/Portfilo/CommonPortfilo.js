@@ -77,14 +77,14 @@ const CommonPortfilo = ({ condition, items }) => {
                 >
                   Full Stack
                 </li>
-                <li
+                {/* <li
                   className={`${
                     test === "Games" ? "text-[#FA5252]" : "fillter-btn ml-0"
                   } mr-4 md:mx-4`}
                   onClick={() => handleSearch("Logo")}
                 >
                   Games
-                </li>
+                </li> */}
 
               </ul>
 

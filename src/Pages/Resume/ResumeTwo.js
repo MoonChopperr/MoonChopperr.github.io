@@ -20,13 +20,7 @@ const ResumeTwo = () => {
               <h2 className="after-effect after:left-44">Resume</h2>
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-x-6 gap-y-6 mt-[30px]">
                 {/* resume items map */}
-                <ResumeCardTwo />
-              </div>
-            </div>
-          </div>
-          {/* End .container */}
-
-          <div className="container bg-color-810 dark:bg-[#0D0D0D] py-12 px-2 sm:px-5 md:px-10 lg:px-20">
+                <div className="container bg-color-810 dark:bg-[#0D0D0D] py-12 px-2 sm:px-5 md:px-10 lg:px-20">
             <div className="grid grid-cols-1  md:grid-cols-2 gap-8">
               <div className="col-span-1">
                 <h4 className="text-5xl dark:text-white font-medium mb-6">
@@ -68,6 +62,13 @@ const ResumeTwo = () => {
               {/* knowledge section end */}
             </div>
           </div>
+                <ResumeCardTwo />
+              </div>
+            </div>
+          </div>
+          {/* End .container */}
+
+
           {/* End .container */}
 
           <Footer condition={false} bg={"#FFFF"} />
